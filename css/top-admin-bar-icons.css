@@ -1,50 +1,15 @@
 /* top admin bar */
 
-
-
-
-
-
-#wpadminbar #wp-admin-bar-site-name > .ab-item:before {
-	content: "\f324" !important;
-}
-
-.wp-admin #wpadminbar #wp-admin-bar-site-name > .ab-item:before {
+/* Top link */
+#wp-admin-bar-site-name > .ab-item:before {
 	content: "\f324" !important;
 }
 
 
-/* Logo */
- #wp-admin-bar-wp-logo .ab-icon:before { 
-     content: "\f324" !important; 
- }
-
-/* Site name - top link icon WP logo
-#wp-admin-bar-site-name a.ab-item:before {
-    content: "\f324" !important; 
-} */
-
-/* View site 
-#wp-admin-bar-view-site a.ab-item:before {
-	content: "\f320" !important;
-} */
-
-/*#wp-admin-bar-site-name-default a.ab-item:before {
-	content: "\f324" !important;
+/* ---- Dashboard ---- */
+#wp-admin-bar-dashboard a {
+	margin-bottom: 10px !important;
 }
-
-#wp-admin-bar-site-name a.ab-item:before {
-	content: "\f324" !important;
-}*/
-
-
-#wpadminbar #wp-admin-bar-my-sites a.ab-item, #wpadminbar #wp-admin-bar-site-name a.ab-item {
-    white-space: nowrap;
-    overflow: hidden;
-    content: "\f155" !important; 
-}
-
-
 
 /* Dashboard */
 #wp-admin-bar-dashboard a:before {
@@ -59,46 +24,64 @@
 }
 
 
-/* All Posts */
+/* ---- Posts ---- */
+#wp-admin-bar-posts a {
+	margin-bottom: 5px !important;
+}
+
+/* Posts */
 #wp-admin-bar-posts a:before {
 	content: "\f109" !important;
 	color: #ccc !important;
 }
 
-/* All Posts */
+/* Posts */
 #wp-admin-bar-posts a:hover:before {
 	content: "\f109" !important;
 	color: #0998dd !important;
 }
 
 
+/* ---- Media ---- */
+#wp-admin-bar-media a {
+	margin-bottom: 5px !important;
+}
 
-/* Media Library */
+/* Media */
 #wp-admin-bar-media a:before {
 	content: "\f104" !important;
 	color: #ccc !important;
 }
 
-/* Media Library */
+/* Media */
 #wp-admin-bar-media a:hover:before {
 	content: "\f104" !important;
 	color: #0998dd !important;
 }
 
 
-/* All Pages */
+/* ---- Pages ---- */
+#wp-admin-bar-pages a {
+	margin-bottom: 5px !important;
+}
+
+/* Pages */
 #wp-admin-bar-pages a:before {
 	content: "\f105" !important;
 	color: #ccc !important;
 }
 
-/* All Pages */
+/* Pages */
 #wp-admin-bar-pages a:hover:before {
 	content: "\f105" !important;
 	color: #0998dd !important;
 }
 
 
+/* ---- Comments ---- */
+#wp-admin-bar-comments-options a {
+	margin-bottom: 10px !important;
+}
 
 /* Comments */ 
 #wp-admin-bar-comments-options a:before {
@@ -112,6 +95,10 @@
 	color: #0998dd !important;
 }
 
+/* ---- Appearance ---- */
+#wp-admin-bar-appearance1 a {
+	margin-bottom: 5px !important;
+}
 
 /* Appearance */
 #wp-admin-bar-appearance1 a:before {
@@ -127,20 +114,28 @@
 }
 
 
+/* ---- Plugins ---- */
+#wp-admin-bar-plugins a {
+	margin-bottom: 5px !important;
+}
 
-/* Installed Plugins */
+/* Plugins */
 #wp-admin-bar-plugins a:before {
-	content: "\f105" !important;
+	content: "\f106" !important;
 	color: #ccc !important;
 }
 
-/* Installed Plugins */
+/* Plugins */
 #wp-admin-bar-plugins a:hover:before {
-	content: "\f105" !important;
+	content: "\f106" !important;
 	color: #0998dd !important;
 }
 
 
+/* ---- Users ---- */
+#wp-admin-bar-users a {
+	margin-bottom: 5px !important;
+}
 
 /* Users */
 #wp-admin-bar-users a:before {
@@ -155,6 +150,10 @@
 }
 
 
+/* ---- Tools ---- */
+#wp-admin-bar-tools a {
+	margin-bottom: 5px !important;
+}
 
 /* Tools */
 #wp-admin-bar-tools a:before {
@@ -169,7 +168,10 @@
 }
 
 
-
+/* ---- Settings ---- */
+#wp-admin-bar-options a {
+	margin-bottom: 5px !important;
+}
 
 /* Settings */
 #wp-admin-bar-options a:before {
@@ -182,8 +184,3 @@
 	content: "\f108" !important;
 	color: #0998dd !important;
 }
-
-
-
-
-
