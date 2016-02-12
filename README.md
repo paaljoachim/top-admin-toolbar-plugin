@@ -7,4 +7,4 @@ In the frontend I now have a drop down containing the various backend main secti
 
 https://cloud.githubusercontent.com/assets/5323259/13017052/513bb0e2-d190-11e5-9db0-0be163a25f71.png
 
-![Admin Toolbar drop down](assets/5323259/13017052/513bb0e2-d190-11e5-9db0-0be163a25f71.png?raw=true "Admin toolbar drop down")
+![Admin Toolbar drop down](cloud.githubusercontent.com/assets/5323259/13017052/513bb0e2-d190-11e5-9db0-0be163a25f71.png?raw=true "Admin toolbar drop down")
