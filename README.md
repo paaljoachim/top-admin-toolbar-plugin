@@ -6,4 +6,6 @@ I am working on the following WordPress trac ticket: https://core.trac.wordpress
 In the frontend I now have a drop down containing the various backend main sections and the dashicons.
 
 
-![Admin Toolbar drop down](https://cloud.githubusercontent.com/assets/5323259/13017052/513bb0e2-d190-11e5-9db0-0be163a25f71.png?raw=true "Admin toolbar drop down")
+![Admin Toolbar drop down](https://cloud.githubusercontent.com/assets/5323259/13025708/142b69b2-d1dc-11e5-8523-ef1ff11d19c9.gif?raw=true "Admin toolbar drop down")
+
+
