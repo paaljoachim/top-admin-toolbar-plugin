@@ -10,7 +10,6 @@
  * Author:            Paal Joachim Romdahl
  * Author URI:        http://easywebdesigntutorials.com/
  
- 
 /* Register style sheet. */
 add_action( 'wp_enqueue_scripts', 'register_plugin_styles' );
 
